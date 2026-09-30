@@ -10,10 +10,18 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
   - file: intro.md
+  - title: Różne Notebooki
+    children:
+      - file: notebooki/00-elementy-jezyka-python.ipynb
+      - file: notebooki/01-klasy-obiekty.ipynb
+      - file: notebooki/02-referencje-kopie.ipynb
   - title: Zadania z Programowania
     children:
     - file: zadania-zestaw-01/zadania-01.md
     - file: zadania-zestaw-01/zadania-02.md
+  jupyter:
+    binder:
+      repo: https://github.com/mk-umcs/book-example/
 site:
   template: book-theme
   options:
