@@ -6,7 +6,7 @@ project:
   # description:
   # keywords: []
   # authors: []
-  github: mk-umcs/book-example
+  # github: mk-umcs/book-example
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
   - file: intro.md
@@ -19,6 +19,12 @@ project:
     children:
     - file: zadania-zestaw-01/zadania-01.md
     - file: zadania-zestaw-01/zadania-02.md
+  # binder: https://mybinder.org/v2/gh/mk-umcs/book-example/HEAD
+  # jupyter: true
+  github: mk-umcs/book-example
+  binder: https://mybinder.org
+
+
 site:
   template: book-theme
   options:
