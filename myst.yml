@@ -1,0 +1,21 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 668153a7-94fa-498c-9939-d8704db53c06
+  # title:
+  # description:
+  # keywords: []
+  # authors: []
+  github: mk-umcs/book-example
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+  - file: intro.md
+  - title: Zadania z Programowania
+    children:
+    - file: zadania-zestaw-01/zadania-01.md
+    - file: zadania-zestaw-01/zadania-02.md
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
