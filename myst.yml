@@ -16,6 +16,8 @@ project:
     - file: zadania-zestaw-01/zadania-02.md
 site:
   template: book-theme
+  options:
+    logo_text: Przykładowe zadania
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
