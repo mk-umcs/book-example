@@ -19,9 +19,6 @@ project:
     children:
     - file: zadania-zestaw-01/zadania-01.md
     - file: zadania-zestaw-01/zadania-02.md
-  jupyter:
-    binder:
-      repo: https://github.com/mk-umcs/book-example/
 site:
   template: book-theme
   options:
